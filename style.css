@@ -1,0 +1,102 @@
+/*Importing Poppins,Monsterrat,Arvo,GreatVibes,Lobster,Pacifio from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat&family=Arvo&family=Great+Vibes&family=Lobster&family=Pacifico&display=swap');
+
+/* Apply fonts to elements */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    box-sizing: border-box !important;
+}
+body{
+    background-color: #070F2B;
+    background-color: #0d0a0b;
+    /* background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%); */
+    background-color: #121212;
+}
+/*Styling the Header part*/
+.navbar{
+    padding:1rem;
+    min-height: 20vh;
+    box-sizing: border-box !important;
+}
+.navbar-brand{
+    font-size:2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color:#29ADB2;
+    background-image: linear-gradient(to right, #007BFF, #00C6FF) !important;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+a{
+    color:white !important;
+}
+.navbar a{
+    font-weight:600;
+}
+.nav-item{
+    padding:0.5rem 0.5rem;
+}
+.nav-link{
+    color:rgb(93, 235, 215) !important;
+    color:#81bbe4   !important;
+}
+/*Styling the main part*/
+main{
+    min-height:175vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.book{
+
+}
+.animate__zoomIn{
+    animation-duration: 3s;
+}
+/*Styling the footer part*/
+.footer {
+    background-color: magenta;
+    background-color: #242424;
+    padding: 20px 0;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+.footer h5,.footer p{
+    color:rgb(66, 66, 173) !important;
+}
+.about{
+    min-height:100vh;
+    /* background-color: red; */
+    margin-top:15vh;
+    width:100%;
+}
+hr{
+    
+}
+.about .image{
+    /* background-color: blue; */
+    padding:2rem;
+    height: 50vh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.image img{
+    width:50vh;
+    height:100%;
+}
+.about .info{
+    /* background-color: green; */
+    min-height:50vh;
+    padding:2rem;
+    font-weight:100;
+}
