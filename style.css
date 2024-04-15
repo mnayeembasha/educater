@@ -52,7 +52,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
+    /* backgroujustifynd-color: red; */
 }
 .book{
 
@@ -72,6 +72,7 @@ main{
 }
 .footer h5,.footer p{
     color:rgb(66, 66, 173) !important;
+    font-weight: normal;
 }
 .about{
     min-height:100vh;
@@ -80,7 +81,7 @@ main{
     width:100%;
 }
 hr{
-    
+
 }
 .about .image{
     /* background-color: blue; */
@@ -91,7 +92,7 @@ hr{
     align-items: center !important;
 }
 .image img{
-    width:50vh;
+    width:80vh;
     height:100%;
 }
 .about .info{
@@ -99,4 +100,19 @@ hr{
     min-height:50vh;
     padding:2rem;
     font-weight:100;
+}
+.g-text{
+    background: linear-gradient(135deg, #1E90FF, #00BFFF);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.animate__fadeIn{
+    animation-duration: 4s;
+}
+.g-text1{
+    background-image: linear-gradient(to right, #007BFF, #00C6FF) !important;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-fill-color: transparent;
 }
